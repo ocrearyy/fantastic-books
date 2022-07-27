@@ -10,27 +10,18 @@
 <body>
     <h1>Fantastic Books</h1>
 
-    <section class="list_of_books">
-        <div>
-            <h2>Title of Book1</h2>
-            <h2>Author of Book1</h2>
-            <button>Remove</button>
-            <hr>
-        </div>
-        <div>
-            <h2>Title of Book2</h2>
-            <h2>Author of Book2</h2>
-            <button>Remove</button>
-            <hr>
-        </div>
+    <section id="store_books>
+       <h3 class="titleDisplay"></h3>
+       <h3 class="authorDisplay"></h3>
+       <button class="removeDisplay">remove</button>
     </section>
     <section class="add_books">
-        <div class="add_a_book_feature">
+        <form class="add_a_book_feature">
             <input type="text" placeholder="Title" name="Title" id="Title" class="form_data">
             <br>
-            <input type="text" placeholder="Author" name="Title" id="Author" class="form_data">
-        </div>
-        <button>Add</button>
+            <input type="text" placeholder="Author" name="Author" id="Author" class="form_data">
+            <button type="submit" id="add_book_btn">Add</button>
+        </form>
 
     </section>
     <script src="app.js"></script>
